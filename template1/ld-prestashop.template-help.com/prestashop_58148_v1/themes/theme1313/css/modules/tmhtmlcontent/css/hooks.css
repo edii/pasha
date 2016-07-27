@@ -1,0 +1,111 @@
+/* Top hook CSS */
+#tmhtmlcontent_top {
+  float: right; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    #tmhtmlcontent_top {
+      float: none;
+      background: #f1f4f7;
+      border-top: 1px solid #d2dae3;
+      clear: both;
+      width: 100%;
+      text-align: right;
+      z-index: 4 !important; } }
+  #tmhtmlcontent_top ul {
+    margin: 0; }
+    #tmhtmlcontent_top ul li {
+      width: auto;
+      padding: 29px 31px 33px; }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        #tmhtmlcontent_top ul li {
+          padding: 0;
+          text-align: right;
+          width: 100%; } }
+      #tmhtmlcontent_top ul li p {
+        margin: 0;
+        font: normal 14px/21px "Ubuntu", sans-serif;
+        text-align: right; }
+        #tmhtmlcontent_top ul li p.phone_box {
+          font: 500 24px/30px "Ubuntu", sans-serif;
+          color: #102747;
+          margin-bottom: 3px; }
+          #tmhtmlcontent_top ul li p.phone_box:before {
+            color: #fe9f38;
+            font-family: "fl-bigmug-line";
+            content: "\e085";
+            display: inline-block;
+            font-weight: normal;
+            font-size: 29px;
+            vertical-align: 2px;
+            margin-right: 7px; }
+          #tmhtmlcontent_top ul li p.phone_box a {
+            color: #102747; }
+            #tmhtmlcontent_top ul li p.phone_box a:hover {
+              color: #fe9f38; }
+        @media (min-width: 992px) and (max-width: 1199px) {
+          #tmhtmlcontent_top ul li p {
+            margin-right: 20px;
+            display: inline-block; }
+            #tmhtmlcontent_top ul li p.phone_box {
+              font-size: 17px; }
+              #tmhtmlcontent_top ul li p.phone_box:before {
+                font-size: 22px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #tmhtmlcontent_top {
+      position: absolute;
+      padding: 0;
+      left: 0;
+      top: -60px; }
+      #tmhtmlcontent_top ul li {
+        padding: 10px 20px; }
+        #tmhtmlcontent_top ul li p {
+          font-size: 12px;
+          line-height: 16px; }
+          #tmhtmlcontent_top ul li p.phone_box {
+            font-size: 17px;
+            line-height: 22px;
+            margin: 0; }
+            #tmhtmlcontent_top ul li p.phone_box:before {
+              font-size: 22px; } }
+  @media (min-width: 480px) and (max-width: 767px) {
+    #tmhtmlcontent_top {
+      float: right;
+      max-width: 40%; }
+      #tmhtmlcontent_top ul li {
+        padding: 30px 20px 20px 10px; }
+        #tmhtmlcontent_top ul li p {
+          font-size: 12px;
+          line-height: 16px; }
+          #tmhtmlcontent_top ul li p.phone_box {
+            font-size: 17px;
+            line-height: 22px;
+            margin: 0; }
+            #tmhtmlcontent_top ul li p.phone_box:before {
+              font-size: 22px; } }
+  @media (max-width: 479px) {
+    #tmhtmlcontent_top {
+      display: none; } }
+
+#tmhtmlcontent_footer {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  @media (max-width: 767px) {
+    #tmhtmlcontent_footer {
+      padding: 30px 20px; } }
+  #tmhtmlcontent_footer ul {
+    margin: 0 -15px !important; }
+    #tmhtmlcontent_footer ul li {
+      padding: 0 15px !important; }
+      #tmhtmlcontent_footer ul li h2 {
+        color: white;
+        font: 500 20px/30px "Ubuntu", sans-serif; }
+        #tmhtmlcontent_footer ul li h2 + p {
+          margin-top: 25px; }
+      #tmhtmlcontent_footer ul li p {
+        color: #7587a1;
+        text-transform: none;
+        font: normal 16px/22px "Ubuntu", sans-serif;
+        font-weight: 300; }
+      #tmhtmlcontent_footer ul li p + p {
+        margin-top: 45px; }
+      #tmhtmlcontent_footer ul li .btn {
+        color: white; }

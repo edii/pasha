@@ -1,0 +1,84 @@
+/******************************************************************
+					Sitemap Page Styles
+*******************************************************************/
+#sitemap h1 {
+  margin-bottom: 30px;
+  margin-top: 35px;
+  font: 500 70px/90px "Ubuntu", sans-serif;
+  color: #102747;
+  text-align: center;
+  border: none; }
+#sitemap .sitemap_block {
+  margin: 0 0 50px; }
+  #sitemap .sitemap_block ul.tree > li > a {
+    color: #102747; }
+    #sitemap .sitemap_block ul.tree > li > a:hover {
+      color: #7587a1; }
+  #sitemap .sitemap_block .page-subheading, #sitemap .sitemap_block ul.tree > li > a {
+    margin-bottom: 16px;
+    position: relative;
+    display: block;
+    font: 500 20px/30px "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 0 22px;
+    color: #102747;
+    border-bottom: 1px solid #d2dae3; }
+    #sitemap .sitemap_block .page-subheading.accordion_current:after, #sitemap .sitemap_block ul.tree > li > a.accordion_current:after {
+      display: block;
+      font-family: "FontAwesome";
+      content: "\f107";
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: 41px;
+      line-height: 36px;
+      width: 35px;
+      font-weight: normal;
+      cursor: pointer; }
+    #sitemap .sitemap_block .page-subheading.accordion_current.active:after, #sitemap .sitemap_block ul.tree > li > a.accordion_current.active:after {
+      content: "\f106"; }
+    #sitemap .sitemap_block .page-subheading a, #sitemap .sitemap_block ul.tree > li > a a {
+      color: #102747; }
+      #sitemap .sitemap_block .page-subheading a:hover, #sitemap .sitemap_block ul.tree > li > a a:hover {
+        color: #7587a1; }
+  #sitemap .sitemap_block .accordion_content {
+    padding-top: 18px; }
+    #sitemap .sitemap_block .accordion_content li {
+      padding: 5px 0;
+      font: normal 16px/22px "Ubuntu", sans-serif; }
+  #sitemap .sitemap_block ul.tree > li {
+    margin: 0 0 30px; }
+    #sitemap .sitemap_block ul.tree > li .accordion_content {
+      overflow: hidden; }
+      #sitemap .sitemap_block ul.tree > li .accordion_content > li {
+        width: 20%;
+        float: left;
+        padding: 0 10px 20px 0; }
+        #sitemap .sitemap_block ul.tree > li .accordion_content > li:nth-child(5n+1) {
+          clear: left; }
+        @media (min-width: 992px) and (max-width: 1199px) {
+          #sitemap .sitemap_block ul.tree > li .accordion_content > li {
+            width: 25%; }
+            #sitemap .sitemap_block ul.tree > li .accordion_content > li:nth-child(4n+1) {
+              clear: left; } }
+        @media (min-width: 630px) and (max-width: 991px) {
+          #sitemap .sitemap_block ul.tree > li .accordion_content > li {
+            width: 33.3333%; }
+            #sitemap .sitemap_block ul.tree > li .accordion_content > li:nth-child(3n+1) {
+              clear: left; } }
+        @media (max-width: 629px) {
+          #sitemap .sitemap_block ul.tree > li .accordion_content > li {
+            width: 50%; }
+            #sitemap .sitemap_block ul.tree > li .accordion_content > li:nth-child(2n+1) {
+              clear: left; } }
+        @media (max-width: 430px) {
+          #sitemap .sitemap_block ul.tree > li .accordion_content > li {
+            width: 100%; } }
+        #sitemap .sitemap_block ul.tree > li .accordion_content > li > a {
+          padding: 5px 0 10px;
+          display: inline-block;
+          font: bold 16px/26px "Ubuntu", sans-serif;
+          color: #102747; }
+          #sitemap .sitemap_block ul.tree > li .accordion_content > li > a:hover {
+            color: #7587a1; }

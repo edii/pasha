@@ -1,0 +1,3 @@
+.footer-container #footer .module:first-child .footer-block:before {
+  display: none;
+}

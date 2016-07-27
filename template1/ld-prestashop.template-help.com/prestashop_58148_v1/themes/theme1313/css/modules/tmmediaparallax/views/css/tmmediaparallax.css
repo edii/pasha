@@ -1,0 +1,60 @@
+/**
+ * 2002-2016 TemplateMonster
+ *
+ * TM Media Parallax
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the General Public License (GPL 2.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/GPL-2.0
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade the module to newer
+ * versions in the future.
+ *
+ *  @author    TemplateMonster
+ *  @copyright 2002-2016 TemplateMonster
+ *  @license   http://opensource.org/licenses/GPL-2.0 General Public License (GPL 2.0)
+ */
+.rd-parallax-layer .text-layout {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 2;
+  margin-left: 175px;
+  width: 63.4765625%; }
+  @media (max-width: 767px) {
+    .rd-parallax-layer .text-layout {
+      width: 100%;
+      margin-left: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding-left: 30px;
+      padding-right: 30px; } }
+  .rd-parallax-layer .text-layout h2 {
+    font-size: 3vw;
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+    font-weight: 500; }
+  .rd-parallax-layer .text-layout p {
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 15px; }
+  .rd-parallax-layer .text-layout h2, .rd-parallax-layer .text-layout p {
+    color: white; }
+  @media (max-width: 1199px) {
+    .rd-parallax-layer .text-layout h2 {
+      font-size: 35px; }
+    .rd-parallax-layer .text-layout p {
+      font-size: 20px;
+      line-height: 1; } }
+
+.rd-parallax-layer .parallax-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3; }

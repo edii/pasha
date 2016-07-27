@@ -1,0 +1,20 @@
+#tags_blog_block_left .block_content a {
+  border: solid 2px #d2dae3;
+  display: inline-block;
+  float: left;
+  font: normal 14px/21px "Ubuntu", sans-serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0 10px 10px 0;
+  padding: 8px 21px;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  #tags_blog_block_left .block_content a:hover {
+    background: #102747;
+    color: white;
+    border-color: #102747; }
+  #tags_blog_block_left .block_content a:focus {
+    background: transparent;
+    color: #102747; }

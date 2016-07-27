@@ -1,0 +1,184 @@
+.blog-image a {
+  display: block; }
+
+#homepage-blog {
+  margin-bottom: 31px; }
+  #homepage-blog ul.row {
+    margin: 0; }
+    #homepage-blog ul.row li {
+      padding: 0 0 0 1px; }
+      #homepage-blog ul.row li .elements_indent {
+        background: #102747; }
+        #homepage-blog ul.row li .elements_indent img {
+          opacity: 0.4;
+          width: 100%; }
+      #homepage-blog ul.row li .overlay-box {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 50%;
+        text-align: center;
+        -moz-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        -o-transform: translate(0, -50%);
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        padding: 0 12% 32px;
+        opacity: 1;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        #homepage-blog ul.row li .overlay-box:after {
+          content: '';
+          display: block;
+          width: 10%;
+          border-top: 2px solid #fe9f38;
+          position: absolute;
+          left: 50%;
+          bottom: 0;
+          -moz-transform: translate(-50%, 0);
+          -ms-transform: translate(-50%, 0);
+          -o-transform: translate(-50%, 0);
+          -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0); }
+        #homepage-blog ul.row li .overlay-box .post-descr {
+          display: none; }
+        #homepage-blog ul.row li .overlay-box .post_details {
+          text-transform: uppercase;
+          color: #fe9f38;
+          margin-bottom: 22px; }
+        #homepage-blog ul.row li .overlay-box h5 {
+          font: 500 34px/48px "Ubuntu", sans-serif;
+          text-transform: uppercase; }
+          #homepage-blog ul.row li .overlay-box h5 a {
+            color: white; }
+      #homepage-blog ul.row li .button-box {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: center;
+        opacity: 0;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        #homepage-blog ul.row li .button-box .btn-secondary {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          color: white;
+          background: none;
+          -moz-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          -o-transform: translate(-50%, -50%);
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+          #homepage-blog ul.row li .button-box .btn-secondary:before, #homepage-blog ul.row li .button-box .btn-secondary:after {
+            border-color: #fe9f38; }
+        #homepage-blog ul.row li .button-box .duplicate_link {
+          display: block;
+          height: 100%;
+          width: 100%;
+          position: absolute; }
+      @media (min-width: 1200px) {
+        #homepage-blog ul.row li:hover .overlay-box {
+          opacity: 0; }
+        #homepage-blog ul.row li:hover .button-box {
+          opacity: 1;
+          -moz-transition-delay: 0.3s;
+          -o-transition-delay: 0.3s;
+          -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s; } }
+  #homepage-blog .title_block {
+    display: none; }
+  @media (min-width: 1200px) and (max-width: 1600px) {
+    #homepage-blog ul.row li .overlay-box {
+      padding: 0 9% 20px;
+      font-size: 13px; }
+      #homepage-blog ul.row li .overlay-box .post_details {
+        margin-bottom: 10px; }
+      #homepage-blog ul.row li .overlay-box h5 {
+        font: 500 22px/35px "Ubuntu", sans-serif; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    #homepage-blog ul.row li .overlay-box {
+      padding: 5%;
+      font-size: 12px; }
+      #homepage-blog ul.row li .overlay-box .post_details {
+        margin-bottom: 10px; }
+      #homepage-blog ul.row li .overlay-box h5 {
+        font: 400 16px/24px "Ubuntu", sans-serif; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #homepage-blog ul.row li .overlay-box {
+      padding: 5%;
+      font-size: 10px; }
+      #homepage-blog ul.row li .overlay-box .post_details {
+        margin-bottom: 5px; }
+      #homepage-blog ul.row li .overlay-box h5 {
+        font: 400 13px/20px "Ubuntu", sans-serif; } }
+  @media (min-width: 480px) and (max-width: 767px) {
+    #homepage-blog ul.row li .overlay-box {
+      padding: 5%;
+      font-size: 10px; }
+      #homepage-blog ul.row li .overlay-box .post_details {
+        margin-bottom: 5px; }
+      #homepage-blog ul.row li .overlay-box h5 {
+        font: 400 13px/20px "Ubuntu", sans-serif; } }
+  @media (max-width: 499px) {
+    #homepage-blog ul.row li {
+      padding: 0; }
+      #homepage-blog ul.row li .overlay-box {
+        padding: 5%;
+        font-size: 12px; }
+        #homepage-blog ul.row li .overlay-box .post_details {
+          margin-bottom: 10px; }
+        #homepage-blog ul.row li .overlay-box h5 {
+          font: 400 16px/24px "Ubuntu", sans-serif; } }
+
+@media (min-width: 500px) {
+  #homepage-blog .bx-wrapper:before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 1px;
+    background: #102747;
+    position: absolute;
+    left: 0;
+    top: 0; } }
+#homepage-blog .bx-wrapper .bx-controls-direction a {
+  background: white;
+  height: 40px;
+  width: 40px;
+  top: 50%;
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  left: 0;
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  padding: 0;
+  opacity: 0.3; }
+  #homepage-blog .bx-wrapper .bx-controls-direction a:before {
+    font-family: "fl-bigmug-line";
+    content: "\e05b";
+    display: inline-block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0;
+    color: #102747; }
+  #homepage-blog .bx-wrapper .bx-controls-direction a.bx-next {
+    left: auto;
+    right: 0; }
+    #homepage-blog .bx-wrapper .bx-controls-direction a.bx-next:before {
+      content: '\e097'; }
+  #homepage-blog .bx-wrapper .bx-controls-direction a:hover {
+    background: #fe9f38;
+    opacity: 1; }
+    #homepage-blog .bx-wrapper .bx-controls-direction a:hover:before {
+      color: white; }

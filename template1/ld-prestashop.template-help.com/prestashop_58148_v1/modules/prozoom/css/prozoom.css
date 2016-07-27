@@ -1,0 +1,24 @@
+fieldset{
+	margin-top:10px;
+}
+
+.fieldset-credits, .fieldset-donate {
+  text-align: center;
+}
+
+.fieldset-credits p:first-child, .fieldset-donate  p:first-child{
+	margin-top: 0;
+}
+
+
+#pb-right-column #image-block img {
+    border: 1px solid #cdcdcd;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+	.zoomContainer .zoomWindowContainer{
+		width: 280px!important;
+	} 
+}

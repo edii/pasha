@@ -1,0 +1,252 @@
+@media (min-width: 992px) {
+  #header-login {
+    float: right; } }
+#header-login .header_user_info {
+  padding: 13px 29px 17px;
+  position: relative;
+  display: block;
+  float: right;
+  color: white;
+  font: normal 14px/30px "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin: 0;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding: 0;
+  cursor: pointer; }
+  #header-login .header_user_info li {
+    float: left;
+    padding-right: 28px; }
+    #header-login .header_user_info li:last-child {
+      padding: 0; }
+  #header-login .header_user_info a {
+    color: white; }
+    #header-login .header_user_info a:hover, #header-login .header_user_info a:active {
+      color: #fe9f38; }
+  #header-login .header_user_info.active a {
+    color: #fe9f38; }
+  @media (max-width: 991px) {
+    #header-login .header_user_info {
+      color: #7587a1;
+      padding: 0;
+      font: normal 16px/24px "Ubuntu", sans-serif;
+      text-transform: capitalize;
+      letter-spacing: 0;
+      text-align: left;
+      float: none !important;
+      clear: both; }
+      #header-login .header_user_info a {
+        color: #7587a1; } }
+  @media (max-width: 991px) {
+    #header-login .header_user_info {
+      display: none; } }
+  #header-login .header_user_info.current a {
+    display: block;
+    padding: 13px 10px 17px;
+    min-width: 126px; }
+    #header-login .header_user_info.current a:after {
+      font-family: "fl-bigmug-line";
+      content: "\e065";
+      display: inline-block;
+      font-weight: normal;
+      font-size: 21px;
+      line-height: 27px;
+      vertical-align: -3px;
+      margin-left: 10px;
+      color: #fe9f38; }
+#header-login.account {
+  position: relative; }
+  #header-login.account .header_user_info.current a:before {
+    font-family: "fl-bigmug-line";
+    content: "\e0d1";
+    display: inline-block;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 27px;
+    vertical-align: -3px;
+    margin-right: 10px;
+    color: #fe9f38; }
+  #header-login.account .header_user_info.current a:after {
+    font-family: "FontAwesome";
+    content: "\f107";
+    display: inline-block;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: -1px;
+    margin-left: 10px;
+    color: #7587a1; }
+  #header-login.account .header_user_info.current.active + .toogle_content {
+    animation: 0.5s ease-in-out 0s normal none 1 fadeInRight;
+    -webkit-animation: 0.5s ease-in-out 0s normal none 1 fadeInRight; }
+  #header-login.account .header_user_info.current.active a:after {
+    font-family: "FontAwesome";
+    content: "\f106";
+    display: inline-block;
+    font-weight: normal; }
+#header-login .logout {
+  overflow: hidden;
+  padding-top: 19px;
+  margin: 0; }
+  #header-login .logout .btn.btn-default {
+    color: white; }
+    #header-login .logout .btn.btn-default:hover, #header-login .logout .btn.btn-default:focus {
+      background: white;
+      color: #102747;
+      border-color: white; }
+  @media (max-width: 991px) {
+    #header-login .logout {
+      padding: 4px 0; }
+      #header-login .logout .btn.btn-default {
+        background: none;
+        border: none;
+        color: #7587a1;
+        min-width: 0;
+        padding: 0;
+        text-transform: capitalize;
+        font-size: 16px; }
+        #header-login .logout .btn.btn-default:hover {
+          color: #fe9f38; } }
+
+@media (min-width: 992px) {
+  #header-login-content {
+    background: white;
+    -moz-box-shadow: 0 1px 16px rgba(16, 39, 71, 0.17);
+    -webkit-box-shadow: 0 1px 16px rgba(16, 39, 71, 0.17);
+    box-shadow: 0 1px 16px rgba(16, 39, 71, 0.17);
+    border: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    z-index: 99999;
+    width: 395px;
+    display: none;
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    max-height: calc(100% - 80px);
+    overflow: auto; } }
+@media (min-width: 1200px) {
+  #header-login-content {
+    top: 50%;
+    max-height: 100%;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); } }
+#header-login-content > li {
+  padding: 52px 60px 40px; }
+  #header-login-content > li h4 {
+    font: 500 20px/30px "Ubuntu", sans-serif;
+    color: #102747;
+    text-transform: uppercase;
+    margin: 0 0 32px; }
+  #header-login-content > li input {
+    margin-bottom: 20px; }
+  #header-login-content > li .btn {
+    width: 100%;
+    margin-bottom: 20px; }
+  #header-login-content > li .clearfix .btn:before {
+    line-height: 12px; }
+  #header-login-content > li p {
+    margin: 0; }
+  #header-login-content > li .cross {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    background: none;
+    padding: 2px 3px; }
+    #header-login-content > li .cross:before {
+      font-family: "fl-bigmug-line";
+      content: "\e01e";
+      display: inline-block;
+      font-weight: normal;
+      display: block;
+      font-size: 24px;
+      line-height: 30px; }
+    #header-login-content > li .cross:hover {
+      color: #fe9f38; }
+@media (max-width: 991px) {
+  #header-login-content {
+    margin: 0; }
+    #header-login-content span.current {
+      display: none; }
+    #header-login-content li {
+      padding: 20px 0 0; }
+      #header-login-content li h4 {
+        margin-bottom: 10px; } }
+
+@media (min-width: 992px) {
+  #header-account-content {
+    display: none;
+    width: 170px;
+    padding: 15px 25px 32px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 10;
+    overflow: hidden;
+    background: #102747;
+    border-radius: 0;
+    color: #fe9f38;
+    width: 270px;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase; }
+    #header-account-content li ul li {
+      padding: 5px 0; }
+      #header-account-content li ul li:first-child {
+        padding-top: 0; }
+      #header-account-content li ul li a {
+        color: white; }
+        #header-account-content li ul li a:hover {
+          color: #fe9f38; }
+        #header-account-content li ul li a i {
+          display: none; } }
+@media (max-width: 991px) {
+  #header-account-content {
+    font-size: 16px;
+    line-height: 24px; }
+    #header-account-content li ul li {
+      padding: 5px 0 4px; }
+      #header-account-content li ul li a {
+        color: #7587a1; }
+        #header-account-content li ul li a:hover {
+          color: #fe9f38; }
+        #header-account-content li ul li a i {
+          display: none; } }
+
+#create_header_account_error {
+  padding: 8px; }
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
